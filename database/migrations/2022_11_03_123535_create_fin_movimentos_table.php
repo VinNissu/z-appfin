@@ -13,7 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        //
+        schema::create('fin_movimentos',function(){
+            
+        });
     }
 
     /**
